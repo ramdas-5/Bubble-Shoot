@@ -1,9 +1,9 @@
 # Bubble-Shoot
-# Circle Toggle Game 🎮⚡
+# Bubblw Shoot Game 🎮⚡
 
 ## Description 📝
 
-Welcome to the **Circle Toggle Game**! This is a simple and interactive game where you need to click on the bubble that matches the randomly generated hit value. As the timer ticks down ⏱️, you earn points by selecting the correct bubble. When time runs out, the game ends, and your final score is displayed. How fast can you score before time runs out?
+Welcome to the **Bubble Shoot Game**! This is a simple and interactive game where you need to click on the bubble that matches the randomly generated hit value. As the timer ticks down ⏱️, you earn points by selecting the correct bubble. When time runs out, the game ends, and your final score is displayed. How fast can you score before time runs out?
 
 ## Features ✨
 
