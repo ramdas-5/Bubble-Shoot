@@ -3,12 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Circle Toggle</title>
+    <title>Bubble Shoot</title>
     <link rel="stylesheet" href="index.css">
     <script defer src="index.js"></script>
 </head>
 <body>
-   <div class="main">
+    <!-- Game Start Section -->
+    <div id="gameStartScreen" class="start-screen">
+        <h1>Bubble Shoot</h1>
+        <button onclick="startGame()">Start Game</button>
+    </div>
+
+    <!-- Game Stats and Panel -->
+    <div class="main" style="display: none;">
         <div class="panel">
             <div class="ptop">
                 <div class="elem">
@@ -28,11 +35,13 @@
         </div>
     </div>
 
-    <div id="gameOverScreen">
-        <h1>Game Over</h1>
-        <h2>Your Score is</h2>
-        <h2 id="finalScore"></h2>
-        <button onclick="location.reload()">Play Again</button>
+    <div class="gameoverf">
+        <div id="gameOverScreen" style="display: none;">
+            <h1>Game Over</h1>
+            <h2>Your Score is</h2>
+            <h2 id="finalScore"></h2>
+            <button onclick="restartGame()">Play Again</button>
+        </div>
     </div>
 </body>
 </html>
