@@ -1,5 +1,5 @@
 # Bubble-Shoot
-# Bubblw Shoot Game 🎮⚡
+# Bubble Shoot Game 🎮⚡
 
 ## Description 📝
 
