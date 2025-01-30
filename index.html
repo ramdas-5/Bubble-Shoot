@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circle Toggle</title>
+    <link rel="stylesheet" href="index.css">
+    <script defer src="index.js"></script>
+</head>
+<body>
+   <div class="main">
+        <div class="panel">
+            <div class="ptop">
+                <div class="elem">
+                    <h3>Hit</h3>
+                    <div id="hitval" class="box">5</div>
+                </div>
+                <div class="elem">
+                    <h3>Timer</h3>
+                    <div id="timerval" class="box">60</div>
+                </div>
+                <div class="elem">
+                    <h3>Score</h3>
+                    <div id="scoreval" class="box">0</div>
+                </div>
+            </div>
+            <div class="pbtm"></div>
+        </div>
+    </div>
+
+    <div id="gameOverScreen">
+        <h1>Game Over</h1>
+        <h2>Your Score is</h2>
+        <h2 id="finalScore"></h2>
+        <button onclick="location.reload()">Play Again</button>
+    </div>
+</body>
+</html>
